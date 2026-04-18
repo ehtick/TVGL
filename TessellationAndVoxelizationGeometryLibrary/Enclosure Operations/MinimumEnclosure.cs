@@ -73,7 +73,7 @@ namespace TVGL
         /// <returns></returns>
         public static BoundingRectangle BoundingRectangleAlong(BoundingRectangle rect, List<Vector2> points)
         {
-            return BoundingRectangleAlong(rect.Direction1, rect.Direction1, points);
+            return BoundingRectangleAlong(rect.Direction1, rect.Direction2, points);
         }
 
         /// <summary>
